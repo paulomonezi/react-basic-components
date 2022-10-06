@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Buttons from './components/buttons/buttons';
 import Text from './components/text/text'
