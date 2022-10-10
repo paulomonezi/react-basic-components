@@ -1,16 +1,11 @@
 import '../text/text.css'
 import React from 'react'
 
-const UpperCaser = ({children}) => {
-    return children.toUpperCase()
-}
-
-const Texto = ({ children, color, showTextColor }) => {
+const Texto = ({ children, color }) => {
     return (
         <>
             <p className='text'
-                style={{ backgroundColor: color }}
-                onClick={() => { showTextColor(color) }}>
+                style={{ backgroundColor: color }}>
                 {children.toUpperCase()}
             </p>
         </>

@@ -6,6 +6,7 @@ import TextosPagina from './components/text/pageTexts'
 function App() {
   return <>
     <TextosPagina />
+    <Buttons/>
   </>
 }
 export default App;

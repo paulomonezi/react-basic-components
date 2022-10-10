@@ -4,8 +4,8 @@ const Buttons = () => {
 
 
     return <>
-        <Button label='Colorizer' />
-        <Button label='Uppercaser' />
+        <Button label='Test Label 1' />
+        <Button label='Test Label 2' />
     </>
 }
 export default Buttons
