@@ -1,14 +1,18 @@
 import './text.css'
 
-const Text = () => {
+const Text = (props, color) => {
     return (
-        <div>
-            <h1>Colorizer and Uppercaser</h1>
-            
-            <p className="base-text">This is our sample text</p>
+        <div style={{ backgroundColor: color }}>
+            <p>
+                {props.txt}
+            </p>
         </div>
-        
+
     )
 }
 
+Text.defaultProps = {
+    color: 'orange'
+    // txt: 'Default text'
+}
 export default Text

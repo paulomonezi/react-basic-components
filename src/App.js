@@ -4,7 +4,8 @@ import Text from './components/text/text'
 
 function App() {
   return <>
-    <Text />
+    <Text txt='This is our sample text'/>
+    <Text/>
     <Buttons />
   </>
 }
