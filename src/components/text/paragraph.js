@@ -1,7 +1,7 @@
-import '../text/text.css'
+import '../text/paragraph.css'
 import React from 'react'
 
-const Texto = ({ children, color }) => {
+const Paragraph = ({ children, color }) => {
     return (
         <>
             <p className='text'
@@ -12,8 +12,8 @@ const Texto = ({ children, color }) => {
     )
 }
 
-Texto.defaultProps = {
+Paragraph.defaultProps = {
     color: 'white'
 }
 
-export default Texto
+export default Paragraph
