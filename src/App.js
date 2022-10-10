@@ -1,12 +1,11 @@
 import './App.css';
 import Buttons from './components/buttons/buttons';
-import Text from './components/text/text'
+import TextosPagina from './components/text/pageTexts'
+
 
 function App() {
   return <>
-    <Text txt='This is our sample text'/>
-    <Text/>
-    <Buttons />
+    <TextosPagina />
   </>
 }
 export default App;

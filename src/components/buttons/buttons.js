@@ -1,19 +1,12 @@
 import Button from "./button/button"
 
-const sayHello = () => {
-    console.log('aoba')
-}
-
 const Buttons = () => {
+
+
     return <>
-        <Button label='Test' onClick={sayHello()} />
-        <Button />
-        <Button />
+        <Button label='Colorizer' />
+        <Button label='Uppercaser' />
     </>
 }
-
-
-
-
 export default Buttons
 

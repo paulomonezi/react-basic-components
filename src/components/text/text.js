@@ -1,18 +1,24 @@
-import './text.css'
+import '../text/text.css'
+import React from 'react'
 
-const Text = (props, color) => {
+const UpperCaser = ({children}) => {
+    return children.toUpperCase()
+}
+
+const Texto = ({ children, color, showTextColor }) => {
     return (
-        <div style={{ backgroundColor: color }}>
-            <p>
-                {props.txt}
+        <>
+            <p className='text'
+                style={{ backgroundColor: color }}
+                onClick={() => { showTextColor(color) }}>
+                {children.toUpperCase()}
             </p>
-        </div>
-
+        </>
     )
 }
 
-Text.defaultProps = {
-    color: 'orange'
-    // txt: 'Default text'
+Texto.defaultProps = {
+    color: 'white'
 }
-export default Text
+
+export default Texto
