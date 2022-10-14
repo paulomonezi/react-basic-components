@@ -1,19 +1,12 @@
 import '../text/paragraph.css'
 import React from 'react'
 
-const Paragraph = ({ children, color }) => {
-    return (
-        <>
-            <p className='text'
-                style={{ backgroundColor: color }}>
-                {children.toUpperCase()}
-            </p>
-        </>
+const Paragraph = ({text, bgColor = 'blue', color = 'white'}) =>{
+    return(
+        <p className='text' style={{backgroundColor: bgColor, color:color}}>
+            {text.toUpperCase()}
+        </p>
     )
-}
-
-Paragraph.defaultProps = {
-    color: 'white'
 }
 
 export default Paragraph
