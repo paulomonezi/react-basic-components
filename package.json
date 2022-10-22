@@ -1,8 +1,8 @@
 
 {
   "name": "colo-upper",
-  "homepage": "https://paulomonezi.github.io/react-basic-components",
   "version": "0.1.0",
+  "homepage": "https://paulomonezi.github.io/react-basic-components",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
