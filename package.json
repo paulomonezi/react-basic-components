@@ -1,5 +1,7 @@
+
 {
   "name": "colo-upper",
+  "homepage": "https://paulomonezi.github.io/react-basic-components",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,7 +14,7 @@
     "web-vitals": "^2.1.4"
   },
   
-"homepage": "https://paulomonezi.github.io/react-basic-components",
+
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
